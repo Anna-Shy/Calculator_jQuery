@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="calculator">
+    <div class="calc_contain">
+
+      <div class="calc__display">
+        <input class="display__input" type="text" readonly>
+      </div>
+
+      <div class="calc__button">
+        <table>
+          <tr>
+            <td colspan="3"><input class="btn_operat clear" type="button" value="C" style="width: 235px;">
+            </td>
+            <td><input class="btn_operat" type="button" value="/"></td>
+          </tr>
+          <tr>
+            <td><input class="btn_num" type="button" value="9"></td>
+            <td><input class="btn_num" type="button" value="8"></td>
+            <td><input class="btn_num" type="button" value="7"></td>
+            <td><input class="btn_operat" type="button" value="x"></td>
+          </tr>
+          <tr>
+            <td><input class="btn_num" type="button" value="6"></td>
+            <td><input class="btn_num" type="button" value="5"></td>
+            <td><input class="btn_num" type="button" value="4"></td>
+            <td><input class="btn_operat" type="button" value="+"></td>
+          </tr>
+          <tr>
+            <td><input class="btn_num" type="button" value="3"></td>
+            <td><input class="btn_num" type="button" value="2"></td>
+            <td><input class="btn_num" type="button" value="1"></td>
+            <td><input class="btn_operat" type="button" value="-"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input class="btn_num" type="button" value="0" style="width: 155px;"></td>
+            <td colspan="2"><input class="btn_operat result" type="button" value="=" style="width: 155px;"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="calc_logs">
+      <ul class="logs__list">
+      </ul>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
